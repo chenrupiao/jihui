@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/default/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/default/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/default/base.css"/>
+		<script src="js/default/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/default/Lunbo.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="m_header">
+			<div class="wrap">
+				<span>hi,欢迎来到集慧咨询业务服务平台！</span>
+				<div class="fr">
+					<a href="">13812345678</a><a href="">退出</a>|<a href="">我的订单</a>|<a href="">会员中心</a>
+				</div>
+			</div>
+		</div>
+		<div class="m_nav2">
+			<div class="wrap">
+				<div class="fl m_logo">
+					<a href="index.html"><img src="images/default/m_logo.png"/></a>
+				</div>
+			</div>
+		</div>
+		<div class="m_content order_place">
+			<div class="wrap">
+				<h3>当前您选择的服务项目</h3>
+				<div class="project_box">
+					<table border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<th class="width2">项目名称</th>
+							<th class="width1">项目价格</th>
+							<th class="width1">购买数量</th>
+							<th class="width1">小计</th>
+						</tr>
+						<tr>
+							<td class="width2">
+								<span><img src="images/default/deta-pic1.png"/></span>
+								<p>
+									商标极速注册
+									<span>我们希望成为您最放心、最中意的企业全生命周期服务商</span>
+								</p>
+								
+							</td>
+							<td class="width1">
+								<p>1280元</p>
+							</td>
+							<td class="width1">
+								<button>-</button>
+								<input type="text" name="" id="" value="1" />
+								<button>+</button>
+							</td>
+							<td class="width1">
+								<font class="orange">2560元</font>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<h3>确认联系人信息<span>请准确填写联系信息（邮寄合同、发票所需）</span></h3>
+				<div class="addres_box">
+					<ul>
+						<li>
+							<p>暂无地址请添加地址</p>
+						</li>
+						<li>
+							<p>张三</p>
+							<p class="phone">138****1234</p>
+							<p class="address">浙江 杭州市 江干区 </p>
+							<p class="button_box">
+								<a href="javascript:void(0);">删除</a>
+								<a href="javascript:void(0);">设为默认地址</a>
+								<a class="orange" href="javascript:void(0);">编辑</a>
+							</p>
+						</li>
+					</ul>
+					<div class="add_address fl active">
+						<a class="add_show" href="javascript:void(0);">+添加新地址<i></i></a>
+						<form class="clear" action="">
+							<div>
+								<label for="name">联系人：</label><input type="text" name="name" id="" value="" placeholder="请准确填写真实姓名"/>
+							</div>
+							<div>
+								<label for="">省市区：</label>
+								<select class="province" name="">
+									<option value="">省份/自治区</option>
+								</select>
+								<select class="city" name="">
+									<option value="">城市</option>
+								</select>
+							</div>
+							<div>
+								<label for="detailed_address">详细地址：</label><textarea name="detailed_address" rows="" cols="" placeholder="详细地址填写"></textarea>
+							</div>
+							<div>
+								<label for="phone">手机号码：</label><input type="text" name="phone" id="" value="" placeholder="输入11位手机号码"/>
+							</div>
+							<div>
+								<label for="mail">邮政编码：</label><input type="text" name="mail" id="" value="" placeholder="邮政编码"/>
+							</div>
+							<div class="button_box">
+								<button>保存地址</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<h3 class="clear">确认发票信息</h3>
+				<div class="invoice_input_box">
+					<div class="radio">
+						<div class="fl">
+							<input class="no_invoice" type="radio" name="radio" id="" value="" checked/><label for="radio">暂不开票</label>
+						</div>
+						<div class="fl">
+							<input type="radio" name="radio" id="" value=""/><label for="radio">增值税普票</label>
+						</div>
+						<div class="fl">
+							<input type="radio" name="radio" id="" value=""/><label for="radio">增值税专票</label>
+						</div>
+					</div>
+					<div class="invoice_check">
+						<div class="invoice_nav clear">
+							<label for="">发票类型：</label>
+							<a class="company_btn active" href="javascript:void(0);">公司</a>
+							<a class="personal_btn" href="javascript:void(0);">个人</a>
+						</div>
+						<div class="company active clear">
+							<div class="fl">
+								<span class="orange">*</span>
+								<label for="invoice_title1">发票抬头：</label>
+								<input type="text" name="invoice_title1" id="" value="" />
+							</div>
+							<div class="fl">
+								<span class="orange">*</span>
+								<label for="invoice_title1">纳税人识别号：</label>
+								<input type="text" name="invoice_title1" id="" value="" />
+							</div>
+							<div class="fl">
+								<span class="orange">*</span>
+								<label for="invoice_title1">开户行：</label>
+								<input type="text" name="invoice_title1" id="" value="" />
+							</div>
+							<div class="fl">
+								<span class="orange">*</span>
+								<label for="invoice_title1">账户：</label>
+								<input type="text" name="invoice_title1" id="" value="" />
+							</div>
+							<label class="clear">一般纳税人证明（开专票需要上传）</label>
+							<div class="picture_box clear">
+								<a class="" href="javascript:void(0);">
+									<img src="images/default/add_img.png"/>
+								</a>
+								<p class="">请上传一般纳税人证明（大小不超过5MB）</p>
+							</div>
+						</div>
+						<div class="personal clear">
+							<div class="fl">
+								<span class="orange">*</span>
+								<label for="invoice_title1">发票抬头：</label>
+								<input type="text" name="invoice_title1" id="" value="" />
+							</div>
+						</div>
+						<div class="button_box clear">
+							<button class="orange_btn">保存发票信息</button>
+							<button>取消</button>
+						</div>
+					</div>
+				</div>
+				<div class="place_box clear">
+					<a class="fr" href="javascript:void(0);">提交订单</a>
+					<p>合计：<span class="orange">2560元</span></p>
+				</div>
+			</div>
+		</div>
+		<footer class="clear">
+			<div class="wrap">
+				<div class="footer-top">
+					<ul class="fl">
+						<li><a href="understand.html">走进集慧</a></li>
+						<li><a href="property_right.html">知识产权</a></li>
+						<li><a href="##">技术入股</a></li>
+						<li><a href="capital_rating.html">资产评估</a></li>
+						<li><a href="design.html">企业财税</a></li>
+						<li><a href="contact_us.html">联系我们</a></li>
+					</ul>
+					<div class="footer-txt fr">
+						<span>全国免费咨询热线：4008-815-691 / 010-58477520</span>
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<div class="footer-bottom-btn">
+						<span>友情链接：</span>
+						<ul>
+							<li><a href="##">阿里巴巴</a></li>
+							<li><a href="##">阿里巴巴</a></li>
+							<li><a href="##">阿里巴巴</a></li>
+							<li><a href="##">阿里巴巴</a></li>
+							<li><a href="##">阿里巴巴</a></li>
+							<li><a href="##">阿里巴巴</a></li>
+							<li><a href="##">阿里巴巴</a></li>
+							<li><a href="##">阿里巴巴</a></li>
+							<li><a href="##">阿里巴巴</a></li>
+							<li><a href="##">阿里巴巴</a></li>
+						</ul>
+					</div>
+					<div class="footer-txt2">
+						<span>集慧总部：北京市丰台区丰体时代大厦C座3层；</span>
+						<span>集慧天津：天津自贸区响螺湾庆盛道金唐大厦A座11层；</span>
+						<span>集慧杭州：滨江区江南大道华荣时代大厦1704</span>
+					</div>
+					<div class="footer-txt3">
+						<div class="footer-txt4">
+							<span>© 2009-2017 jihui.com 版权所有 集慧</span>
+							<img src="images/default/icon2.png"/>
+							<span>浙公网安备 33010002000099号</span>
+						</div>
+						<div class="footer-txt5 fr">
+							<span>技术支持：双收网络</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="popver active">
+			<div class="success_box">
+				<div class="img_box">
+					<img src="images/default/m_check.png"/>
+				</div>
+				<div>
+					<h4>您的订单已提交成功！</h4>
+					<p>我们工作人员会在24小时联系您</p>
+				</div>
+				<button class="grey">返回首页</button> <button>前去查看</button>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	$('.order_nav a').click(function(){
+		$(this).addClass('active').siblings().removeClass('active');
+	})
+	$('.add_address .add_show').click(function(){
+		if ($('.add_address').hasClass('active')) {
+			$('.add_address').removeClass('active');
+		} else{
+			$('.add_address').addClass('active');
+		}
+	})
+	$('.invoice_nav a').click(function(){
+		$(this).addClass('active').siblings('a').removeClass('active');
+		if ($('.company_btn').hasClass('active')) {
+			$('.company').addClass('active');
+			$('.personal').removeClass('active');
+		} else{
+			$('.personal').addClass('active');
+			$('.company').removeClass('active');
+		}
+	})
+	$('.no_invoice').change(function(){
+		if ($(this).is(':checked')) {
+			$('.invoice_check').removeClass('active');
+		} else{
+			$('.invoice_check').addClass('active');
+		}
+	})
+	$(".popver button").click(function(){
+		$(this).parent().parent('.popver').removeClass('active')
+	})
+</script>

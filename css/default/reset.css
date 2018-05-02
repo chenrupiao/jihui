@@ -1,0 +1,11 @@
+body,ul,li,a,img,div,i,span,strong,p,input,h2,h3,h4,h5,h6,ol{padding:0; margin:0;border:none;list-style: none;}
+a{text-decoration: none;}
+input,textarea{outline:none;}
+
+.clear{clear:both;}
+em{font-style:normal;}
+b{font-weight: normal;}
+
+.fl{float: left;}
+.fr{float: right;}
+.wrap{width: 1200px;margin: 0 auto;}
